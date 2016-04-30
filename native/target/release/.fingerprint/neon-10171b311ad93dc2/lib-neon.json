@@ -1,0 +1,1 @@
+{"rustc":10772311102024838230,"target":5340231088065699672,"profile":11411396542915816673,"local":{"variant":"Precalculated","fields":["0.1.9"]},"features":"None","deps":[["cslice v0.1.0",2078699302558734195],["neon-sys v0.1.9",17771211873796667713]]}

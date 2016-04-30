@@ -1,0 +1,32 @@
+
+> undefined install /home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9
+> node-gyp rebuild
+
+make: Entering directory '/home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9/build'
+  CXX(target) Release/obj.target/neon/src/neon.o
+  SOLINK_MODULE(target) Release/obj.target/neon.node
+  COPY Release/neon.node
+make: Leaving directory '/home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9/build'
+
+> @ configure-release /home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9
+> node-gyp configure
+
+
+> @ build-release /home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9
+> node-gyp build
+
+make: Entering directory '/home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9/build'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/kilazi/.multirust/toolchains/stable/cargo/registry/src/github.com-88ac128001ac3a9a/neon-sys-0.1.9/build'
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crus" "/home/kilazi/Downloads/new_2/native/target/release/build/neon-sys-81f8234bc76a0460/out/libneon.a" "build/Release/obj.target/neon/src/neon.o"
+ExitStatus(ExitStatus(0))
+cargo:rustc-link-lib=static=neon
+cargo:rustc-link-search=native=/home/kilazi/Downloads/new_2/native/target/release/build/neon-sys-81f8234bc76a0460/out
