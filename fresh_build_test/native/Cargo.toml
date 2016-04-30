@@ -1,0 +1,12 @@
+[package]
+name = "new"
+version = "0.1.0"
+authors = ["dally"]
+license = "MIT"
+
+[lib]
+name = "new"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"

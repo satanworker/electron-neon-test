@@ -1,2 +1,4 @@
 ./node_modules/*
 *node_modules
+./electron-demo/node_modules/*
+./fresh_build_test/node_modules/*
